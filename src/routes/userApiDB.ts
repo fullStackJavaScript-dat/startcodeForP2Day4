@@ -5,7 +5,7 @@ const router = express.Router();
 import { ApiError } from "../errors/apiError"
 import authMiddleware from "../middlewares/basic-auth";
 import * as mongo from "mongodb"
-import setup from "../../config/setupDB"
+import setup from "../config/setupDB"
 const MongoClient = mongo.MongoClient;
 
 

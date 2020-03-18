@@ -5,7 +5,7 @@ import { Server } from "http";
 import fetch from "node-fetch";
 import mongo, { MongoClient } from "mongodb";
 import {bryptAsync} from "../src/utils/bcrypt-async-helper"
-import setup from "../config/setupDB"
+import setup from "../src/config/setupDB"
 
 
 let server: Server;

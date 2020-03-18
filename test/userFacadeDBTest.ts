@@ -1,6 +1,6 @@
 import * as mongo from "mongodb"
 const MongoClient = mongo.MongoClient;
-import setup from "../config/setupDB"
+import setup from "../src/config/setupDB"
 import UserFacade from '../src/facades/userFacadeWithDB';
 import { expect } from "chai";
 import { bryptAsync } from "../src/utils/bcrypt-async-helper"

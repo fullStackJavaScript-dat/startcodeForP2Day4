@@ -3,7 +3,7 @@ require('dotenv').config({ path: path.join(process.cwd(), '.env') })
 import IGameUser from '../interfaces/GameUser';
 import { bryptAsync, bryptCheckAsync } from "../utils/bcrypt-async-helper"
 import * as mongo from "mongodb"
-import setup from "../../config/setupDB"
+import setup from "../config/setupDB"
 import { ApiError } from "../errors/apiError"
 
 let userCollection: mongo.Collection;
